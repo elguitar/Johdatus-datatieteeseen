@@ -1,0 +1,14 @@
+c.NotebookApp.notebook_dir = '/home/petri/jupyter/'
+c.NotebookApp.base_url = u'/notebook'
+c.NotebookApp.password = Add your own secret
+c.NotebookApp.port = 8888 
+c.NotebookApp.port_retries = 50
+
+c.NotebookApp.certfile = path to cert
+c.NotebookApp.keyfile = path to private key
+c.NotebookApp.ip = '0.0.0.0'
+c.NotebookApp.open_browser = False
+
+# For holoviews
+c.NotebookApp.iopub_data_rate_limit=100000000
+
